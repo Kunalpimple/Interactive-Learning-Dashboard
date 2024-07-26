@@ -1,0 +1,25 @@
+.homepage {
+    background: linear-gradient(
+      135deg,
+      rgba(223, 227, 109, 0.4),
+      rgba(127, 79, 230, 0.6)
+    );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .homepage-content {
+    background: rgba(255, 255, 255, 0.5); /* Slight glass effect */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 1200px;
+    backdrop-filter: blur(10px); /* Glass effect */
+  }
+  

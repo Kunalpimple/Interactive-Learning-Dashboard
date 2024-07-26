@@ -1,0 +1,19 @@
+{
+    "resources": [
+      {
+        "id": 1,
+        "title": "JavaScript for Beginners",
+        "description": "A complete guide to learn JavaScript from scratch.",
+        "thumbnail": "https://via.placeholder.com/150",
+        "link": "https://example.com/javascript-for-beginners"
+      },
+      {
+        "id": 2,
+        "title": "React Documentation",
+        "description": "Official React documentation and guide.",
+        "thumbnail": "https://via.placeholder.com/150",
+        "link": "https://reactjs.org/docs/getting-started.html"
+      }
+    ]
+  }
+  

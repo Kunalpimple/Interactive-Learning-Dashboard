@@ -1,0 +1,63 @@
+/* Ensure the body and html take up full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif; /* Use a clean, modern font */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgba(143, 71, 243, 0.8); /* Slightly transparent background */
+  backdrop-filter: blur(10px); /* Glass effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-title {
+  font-size: 24px;
+  margin-right: auto;
+  color: #333;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Reduced gap for tighter alignment */
+}
+
+.navbar-button, .theme-switcher {
+  background: none;
+  border: none;
+  
+  color: #333; /* Dark text for contrast */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  height: 40px; /* Fixed height for uniformity */
+  padding: 0 15px; /* Uniform horizontal padding */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.navbar-button:hover, .theme-switcher:hover {
+  color: #e7ecf3; /* Change to a nice blue on hover */
+}
+
+.navbar-button.my-profile {
+  font-size: 16px; /* Ensure consistent font size */
+  min-width: 120px; /* Increased minimum width for My Profile button */
+  text-align: center; /* Center text alignment */
+}

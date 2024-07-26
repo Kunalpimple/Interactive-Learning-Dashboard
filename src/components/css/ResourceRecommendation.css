@@ -1,0 +1,50 @@
+.resource-recommendations {
+    padding: 20px;
+  }
+  
+  .resources-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .resource-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resource-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  
+  .resource-details {
+    padding: 10px;
+  }
+  
+  .resource-details h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+  
+  .resource-details p {
+    margin: 0 0 10px;
+  }
+  
+  .resource-details a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .resource-details a:hover {
+    text-decoration: underline;
+  }
+  
+  body.dark .resource-recommendations {
+    background: #555;
+    border-color: #444;
+  }
+  

@@ -1,0 +1,166 @@
+/* Ensure full height and center content */
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw; /* Full viewport width */
+    background: linear-gradient(
+      135deg, 
+      rgba(223, 227, 109, 0.5), 
+      rgba(127, 79, 230, 0.5)
+    ); /* Match the login page gradient background */
+    padding: 0; /* Remove padding */
+    box-sizing: border-box;
+  }
+  
+  /* Adjust the profile content container */
+  .profile-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.8); /* Glass effect background */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0; /* Remove margin */
+  }
+  
+  /* Ensure profile header has no margin issues */
+  .profile-header {
+    margin: 0 0 20px 0; /* Only margin-bottom to space header from content */
+  }
+  
+  .profile-header h2 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  /* Adjust profile picture section to be consistent */
+  .profile-picture {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Ensure profile picture fits well */
+  .profile-picture img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+  }
+  
+  .user-icon {
+    font-size: 120px;
+    color: #bbb;
+  }
+  
+  .file-input {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+  }
+  
+  .profile-details {
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #fff;
+    box-sizing: border-box;
+  }
+  
+  textarea.form-control {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .save-button, .cancel-button, .edit-button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+  }
+  
+  .save-button {
+    background: #28a745;
+    color: #fff;
+  }
+  
+  .save-button:hover {
+    background: #218838;
+  }
+  
+  .cancel-button {
+    background: #dc3545;
+    color: #fff;
+  }
+  
+  .cancel-button:hover {
+    background: #c82333;
+  }
+  
+  .edit-button {
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .edit-button:hover {
+    background: #0056b3;
+  }
+  
+  .recent-activities {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .recent-activities h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .recent-activities ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .recent-activities li {
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
